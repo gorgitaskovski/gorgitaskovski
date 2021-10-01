@@ -1,0 +1,145 @@
+
+body{
+	background-image:url("../background/abstract5.png");
+	background-size: 100%;
+	font-family: 'Trebuchet MS', sans-serif;
+	font-size: 25px;
+	color: green;
+	text-align: center;
+}
+
+body a{
+	color: darkviolet;
+}
+
+body a:hover{
+	color: white;
+	font-weight: bold;
+}
+
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+::placeholder{
+	color: DarkGrey;
+}
+
+table tr, th, td{
+
+	width: 5%;
+
+}
+
+table{
+
+	border-collapse: collapse;
+}
+
+.align-right{
+	text-align: right;
+}
+
+.align-left{
+	text-align: left;
+}
+
+.horizontal-center{
+
+    	margin-left: auto;
+
+    	margin-right: auto;
+}
+
+
+.login-container{
+
+    	width: 300px;
+
+    	height: 250px;
+
+    	margin-left: auto;
+	margin-right: auto;
+
+	margin-top: 250px;
+
+}
+
+
+
+
+.login-input{
+
+   	width: 200px;
+
+   	height: 30px;
+
+   	margin-top: 25px;
+
+}
+
+
+
+.login-error-message{
+
+   	color: red;
+
+}
+
+
+
+.index-container{
+	width: 700px;
+	height: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+}
+
+
+.welcome-container{
+	margin-bottom: 50px;
+}
+
+.pagination-container{
+	margin-top: 50px;
+}
+
+
+.add-contact-container{
+
+	width: 300px;
+
+    	height: 400px;
+
+    	margin-left: auto;
+
+    	margin-right: auto;
+
+    	margin-top: 100px;
+
+}
+
+input[type=text] {
+	width: 100%;
+	background-color: green;
+	color: white;
+	font-size: 25px;
+}
+
+input[type=password] {
+	width: 100%;
+	background-color: green;
+	color: white;
+	font-size: 25px;
+}
+
+input[type=submit] {
+	width: 100%;
+	background-color: green;
+	color: white;
+	font-size: 25px;
+	margin-top: 25px;
+	cursor: pointer;
+}
